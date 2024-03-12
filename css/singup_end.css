@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.i-phone-14-11, .i-phone-14-11 * {
+    box-sizing: border-box;
+    }
+.i-phone-14-11 {
+   background: linear-gradient(191.44deg, rgba(94, 109, 242, 0.64) 0%,rgba(107, 211, 255, 0.73) 100%);
+    width: 390px;
+    height: 844px;
+    position: relative;
+    overflow: hidden;
+   }
+
+.frame-4 {
+   background: rgba(255, 255, 255, 0.19);
+    border-radius: 3px;
+    width: 281px;
+    height: 553px;
+    position: absolute;
+    left: 54px;
+   top: 146px;
+    box-shadow: 0px 4px 6px 4px rgba(255, 255, 255, 0.08);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+   }
+
+.singupEnd {
+   color: #ffffff;
+    text-align: left;
+    font: 400 28px 'Inter', sans-serif;
+    position: absolute;
+    left: 71px;
+   top: 156px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+   }
+
+.rectangle-14 {
+    width: 142px;
+    height: 36px;
+    position: absolute;
+    left: 70px;
+   top: 352px;
+   }
+
+   /* -------------------------------------ボタンデザイン--------------------------------------------------------- */
+   .top {
+    width: 142px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 36px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .top:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .top:focus {
+    outline: none;
+  }
+  
+  .top.bn26 {
+    background-image: linear-gradient(
+      to right,
+      #2567e19a,
+      #445deb9f,
+      #0479fea4,
+      #3f59ed93
+    );
+    box-shadow: 0px 4px 4px 0px rgba(123, 121, 245, 0.33);
+  }

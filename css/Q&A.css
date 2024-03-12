@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(91, 127, 255, 0.78) 0%,rgba(91, 176, 255, 0.78) 100%);
+  height: 27px;
+}
+
+/* ----------------------------項目-------------------------------------------------------------------------------- */
+.qa-001 {
+    max-width: 500px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    border: 1px solid #5e77f3;
+    border-radius: 5px;
+}
+
+.qa-001 summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1em 2em 1em 3em;
+    color: #adb3ff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.qa-001 summary::before,
+.qa-001 p::before {
+    position: absolute;
+    left: 1em;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.qa-001 summary::before {
+    color: #75bbff;
+    content: "Q";
+}
+
+.qa-001 summary::after {
+    transform: translateY(-25%) rotate(45deg);
+    width: 7px;
+    height: 7px;
+    margin-left: 10px;
+    border-bottom: 3px solid #adb3ffb3;
+    border-right: 3px solid #adb3ffb3;
+    content: '';
+    transition: transform .5s;
+}
+
+.qa-001[open] summary::after {
+    transform: rotate(225deg);
+}
+
+.qa-001 p {
+    position: relative;
+    transform: translateY(-10px);
+    opacity: 0;
+    margin: 0;
+    padding: .3em 3em 1.5em;
+    color: #333;
+    transition: transform .5s, opacity .5s;
+}
+
+.qa-001[open] p {
+    transform: none;
+    opacity: 1;
+}
+
+.qa-001 p::before {
+    color: #ff8d8d;
+    line-height: 1.2;
+    content: "A";
+}

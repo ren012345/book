@@ -1,0 +1,180 @@
+.bn632-hover {
+    width: 140px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 50px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn20 {
+    background-image: linear-gradient(
+      to right,
+      #667eea,
+      #764ba2,
+      #6b8dd6,
+      #8e37d7
+    );
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  }
+
+  .newText {
+    resize: none; /* リサイズを禁止 */
+  }
+
+  .newText {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    background: #b3b5ff;
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 1.5;
+}
+.newText::placeholder {
+  font-size: 15px;
+}
+
+.newText::placeholder {
+    color: #ffffff;
+}
+
+.bookNo {
+  resize: none; /* リサイズを禁止 */
+}
+
+.bookNo {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #d2d2d2;
+  border-radius: 3px;
+  background: #b3b5ff;
+  color: #ffffff;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.bookNo::placeholder {
+  color: #ffffff;
+}
+
+/*-------------------------------------カテゴリー選択のセレクトボックス----------------------------------------------*/
+.selectbox-005 {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.selectbox-005::after {
+  position: absolute;
+  right: 15px;
+  width: 10px;
+  height: 7px;
+  background-color: #d9b3ff;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  content: '';
+  pointer-events: none;
+}
+
+.selectbox-005 select {
+  appearance: none;
+  min-width: 230px;
+  height: 2.8em;
+  padding: .4em calc(.8em + 30px) .4em .8em;
+  border: none;
+  border-bottom: 2px solid #a2bfff;
+  background-color: #fff;
+  color: #b993ff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.selectbox-005 select:focus {
+  outline: none;
+}
+
+/* ------------------配置------------------------------------------------------------------------ */
+/* .i-phone-14-3, .i-phone-14-3 * {
+  box-sizing: border-box;
+  } */
+  .i-phone-14-3 {
+    background: white;
+  width: 390px;
+  height: 844px;
+  position: relative;
+  overflow: hidden;
+  }
+  
+.vector {
+  position: absolute;
+  left: 70px;
+  top: 296px;
+  overflow: visible;
+  color: #b993ff;
+}
+
+.vector2 {
+  position: absolute;
+  left: 70px;
+  top: 369px;
+  overflow: visible;
+  color: #b993ff;
+}
+
+.rectangle-5 {
+  position: absolute;
+  left: 56px;
+  top: 440px;
+}
+  
+.vector3 {
+  border-radius: 0px;
+  position: absolute;
+  top: 630px;
+  overflow: visible;
+}
+
+.vector4 {
+  border-radius: 0px;
+  position: absolute;
+  left: 200px;
+  top: 630px;
+  overflow: visible;
+}
+
+.book-medical-solid-1 {
+  position: absolute;
+  left: 152px;
+  top: 133px;
+  overflow: visible;
+  }
+  
+
+  .error {
+    font-size: 16px;
+    color: rgba(255, 71, 71, 0.61);
+    text-align: center;
+    margin-top: 481px;
+ }

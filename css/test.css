@@ -1,0 +1,258 @@
+.i-phone-14-6, .i-phone-14-6 * {
+  box-sizing: border-box;
+  }
+.i-phone-14-6 {
+ background: #ffffff;
+  width: 390px;
+  height: 844px;
+  position: relative;
+  overflow: hidden;
+ }
+
+.c {
+ position: absolute;
+  left: 0px;
+ top: 0px;
+  overflow: visible;
+ }
+
+.frame-3 {
+ background: #bcdfff;
+  width: 390px;
+  height: 37px;
+  position: absolute;
+  left: 0px;
+ top: 54px;
+  overflow: hidden;
+ }
+
+.a {
+ color: #ffffff;
+  text-align: left;
+  font: 400 12px 'Inter', sans-serif;
+  position: absolute;
+  left: 85px;
+ top: 11px;
+ }
+
+.b {
+    color: #ffffff;
+    text-align: left;
+    font: 400 12px 'Inter', sans-serif;
+    position: absolute;
+    left: 258px;
+    top: 11px;
+}
+
+.line-11 {
+ border-style: solid;
+  border-color: #49a8ff;
+  border-width: 2px 0 0 0;
+  width: 195px;
+  height: 0px;
+  position: absolute;
+  left: 195px;
+ top: 91px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+ }
+
+._6 {
+ color: rgba(115, 205, 255, 0.78);
+  text-align: left;
+  font: 400 15px 'Inter', sans-serif;
+  position: absolute;
+  left: 31px;
+ top: 185px;
+ }
+
+.line-17 {
+ border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px 0 0 0;
+  width: 390px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+ top: 220.5px;
+ }
+
+.line-35 {
+ border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px 0 0 0;
+  width: 390px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+ top: 220.5px;
+ }
+
+.group-4 {
+ position: absolute;
+  inset: 0;
+ }
+
+.rectangle-10 {
+ background: #ffffff;
+  border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px;
+  width: 315px;
+  height: 34px;
+  position: absolute;
+  left: 31px;
+ top: 117px;
+ }
+
+.line-12 {
+ border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px 0 0 0;
+  width: 21.4px;
+  height: 0px;
+  position: absolute;
+  left: 31px;
+ top: 151px;
+  transform-origin: 0 0;
+  transform: rotate(52.595deg) scale(1, 1);
+ }
+
+.line-14 {
+ border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px 0 0 0;
+  width: 21.4px;
+  height: 0px;
+  position: absolute;
+  left: 345px;
+ top: 118px;
+  transform-origin: 0 0;
+  transform: rotate(52.595deg) scale(1, 1);
+ }
+
+.line-13 {
+ border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px 0 0 0;
+  width: 21.4px;
+  height: 0px;
+  position: absolute;
+  left: 345px;
+ top: 151px;
+  transform-origin: 0 0;
+  transform: rotate(52.595deg) scale(1, 1);
+ }
+
+.line-15 {
+ border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px 0 0 0;
+  width: 314px;
+  height: 0px;
+  position: absolute;
+  left: 44px;
+ top: 168px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+ }
+
+.line-16 {
+ border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px 0 0 0;
+  width: 34.01px;
+  height: 0px;
+  position: absolute;
+  left: 360px;
+ top: 168.01px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+ }
+
+.d {
+ color: rgba(115, 205, 255, 0.78);
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 44px;
+ top: 122px;
+ }
+
+.rectangle-13 {
+ background: #ffffff;
+  border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px;
+  width: 315px;
+  height: 34px;
+  position: absolute;
+  left: 31px;
+ top: 117px;
+ }
+
+.line-30 {
+ border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px 0 0 0;
+  width: 21.4px;
+  height: 0px;
+  position: absolute;
+  left: 31px;
+ top: 151px;
+  transform-origin: 0 0;
+  transform: rotate(52.595deg) scale(1, 1);
+ }
+
+.line-31 {
+ border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px 0 0 0;
+  width: 21.4px;
+  height: 0px;
+  position: absolute;
+  left: 345px;
+ top: 118px;
+  transform-origin: 0 0;
+  transform: rotate(52.595deg) scale(1, 1);
+ }
+
+.line-32 {
+ border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px 0 0 0;
+  width: 21.4px;
+  height: 0px;
+  position: absolute;
+  left: 345px;
+ top: 151px;
+  transform-origin: 0 0;
+  transform: rotate(52.595deg) scale(1, 1);
+ }
+
+.line-33 {
+ border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px 0 0 0;
+  width: 314px;
+  height: 0px;
+  position: absolute;
+  left: 44px;
+ top: 168px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+ }
+
+.line-34 {
+ border-style: solid;
+  border-color: rgba(115, 205, 255, 0.78);
+  border-width: 2px 0 0 0;
+  width: 34.01px;
+  height: 0px;
+  position: absolute;
+  left: 360px;
+ top: 168.01px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+ }
+

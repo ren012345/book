@@ -1,0 +1,289 @@
+body {
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.css-button-retro {
+    width: 140px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 50px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .css-button-retro:hover {
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .css-button-retro:focus {
+    outline: none;
+  }
+  
+  .css-button-retro {
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #4481eb,
+      #04befe,
+      #3f86ed
+    );
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  }
+
+  /* ------------------ヘッダーデザイン--------------------------------------------------------------- */
+  a {
+    text-decoration: none;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(91, 127, 255, 0.78) 0%,rgba(91, 176, 255, 0.78) 100%);
+  height: 27px;
+}
+.hamburger{
+  width: 40px;
+  height: 25px;
+  position: relative;
+  /* position: fixed;
+  top: 65px; */
+}
+.hamburger span{
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  transition: .5s;
+}
+.hamburger span:first-of-type{/* ハンバーガーメニューの1番目の線 */
+  top: 0;
+}
+.hamburger span:nth-of-type(2){/* ハンバーガーメニューの2番目の線 */
+  top: 50%;
+}
+.hamburger span:last-of-type{/* ハンバーガーメニューの3番目の線 */
+  top: 100%;
+}
+.slide-menu{
+  background-color: rgba(0, 0, 0, .8);
+  position: fixed;
+  top: 65px;
+  width: 100%;
+  left: 0;
+  transform: translateX(110%);
+  transition: .5s;
+  z-index: 9999;
+}
+.slide-menu li{
+  color: #fff;
+  line-height: 400%;
+  text-align: center;
+  position: relative;
+}
+
+.hamburger.active span:first-of-type{/* ハンバーガーメニューの1番目の線 */
+  top: 50%;
+  transform: rotate(405deg);
+}
+.hamburger.active span:nth-of-type(2){/* ハンバーガーメニューの2番目の線 */
+  opacity: 0;/* 透明にする */
+}
+.hamburger.active span:last-of-type{/* ハンバーガーメニューの3番目の線 */
+  top: 50%;
+  transform: rotate(-405deg);
+}
+.slide-menu.active{
+  transform: translateX(0); 
+}
+
+/* ---------------------------------メインデザイン---------------------------------------------------------------------------------------- */
+.title2 {
+  border-bottom: double 5px #3B63C9;
+  width: 85%;
+  color: #1F78FF;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 5%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.checkbox-label {
+  cursor: pointer;
+}
+
+.line-3 {
+  border-style: solid;
+   border-color: #000000;
+   border-width: 1px 0 0 0;
+   width: 313px;
+   height: 0px;
+   position: absolute;
+   left: 39px;
+  top: 540px;
+   transform-origin: 0 0;
+   transform: rotate(-0.183deg) scale(1, 1);
+  }
+
+.line-4 {
+  border-style: solid;
+   border-color: #000000;
+   border-width: 1px 0 0 0;
+   width: 313px;
+   height: 0px;
+   position: absolute;
+   left: 39px;
+  top: 630px;
+   transform-origin: 0 0;
+   transform: rotate(-0.183deg) scale(1, 1);
+  }
+
+.line-5 {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 313px;
+    height: 0px;
+    position: absolute;
+    left: 39px;
+    top: 580px;
+    transform-origin: 0 0;
+    transform: rotate(-0.183deg) scale(1, 1);
+  }
+
+  .kansu {
+    color: #000000;
+    text-align: left;
+    font: 400 14px 'Inter', sans-serif;
+    position: absolute;
+    left: 70px;
+    top: 517px;
+  }
+  .kansu2{
+    color: #000000;
+    text-align: left;
+    font: 400 14px 'Inter', sans-serif;
+    position: absolute;
+    left: 185px;
+   top: 517px;
+  }
+
+  
+  .hatubai{
+    color: #000000;
+    text-align: left;
+    font: 400 14px 'Inter', sans-serif;
+    position: absolute;
+    left: 70px;
+   top: 560px;
+  }
+  .hatubai2 {
+    color: #000000;
+    text-align: left;
+    font: 400 14px 'Inter', sans-serif;
+    position: absolute;
+    left: 185px;
+   top: 560px;
+  }
+
+  .touroku {
+    color: #000000;
+    text-align: left;
+    font: 400 14px 'Inter', sans-serif;
+    position: absolute;
+    left: 70px;
+   top: 605px;
+  }
+  .touroku2 {
+    color: #000000;
+    text-align: left;
+    font: 400 14px 'Inter', sans-serif;
+    position: absolute;
+    left: 185px;
+   top: 605px;
+  }
+.imgg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* -------------------配置------------------------------------------------------------------------------------------------------------------ */
+.title1 {
+  /* position: relative; */
+  left: 22px;
+  top: 72.46px;
+  overflow: visible;
+}
+
+.img-area {
+  background: #d9d9d9;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+}
+
+.hensyu {
+  position: absolute;
+  left: 4%;
+ top: 700px;
+  overflow: visible;
+}
+
+.delete {
+  position: absolute;
+  left: 50%;
+ top: 700px;
+  overflow: visible;
+}
+/* .circle-chevron-down-solid-1 {
+  position: absolute;
+  left: 340px;
+  top: 83px;
+  overflow: visible;
+  } */
+  
+  .checkbox-label {
+    position: relative;
+ }
+ 
+ .checkbox-input {
+    position: absolute;
+    left: 345px;
+  top: -35px;
+    z-index: 1; /* 画像よりも上に表示する */
+    /*opacity: 0; /*チェックボックス自体は透明にする */
+ }
+ 
+ .circle-chevron-down-solid-1 {
+    /* 画像の位置調整 */
+    position: absolute;
+    left: 345px;
+  top: 0px;
+ }
+ 

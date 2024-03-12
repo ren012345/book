@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.i-phone-14-8, .i-phone-14-8 * {
+    box-sizing: border-box;
+    }
+.i-phone-14-8 {
+   background: linear-gradient(191.44deg, rgba(94, 109, 242, 0.64) 0%,rgba(107, 211, 255, 0.73) 100%);
+    width: 390px;
+    height: 844px;
+    position: relative;
+    overflow: hidden;
+   }
+
+.frame-4 {
+   background: rgba(255, 255, 255, 0.19);
+    border-radius: 3px;
+    width: 281px;
+    height: 553px;
+    position: absolute;
+    left: 54px;
+   top: 146px;
+    box-shadow: 0px 4px 6px 4px rgba(255, 255, 255, 0.08);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+   }
+
+.login {
+   color: #ffffff;
+    text-align: left;
+    font: 400 24px 'Inter', sans-serif;
+    position: absolute;
+    left: 95px;
+   top: 114px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+   }
+
+
+.line-36 {
+    position: absolute;
+    left: 41px;
+   top: 172px;
+   }
+
+
+
+.line-37 {
+    position: absolute;
+    left: 41px;
+   top: 241px;
+   }
+
+
+.roginbutton {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-14 {
+    width: 142px;
+    height: 29px;
+    position: absolute;
+    left: 70px;
+   top: 406px;
+   }
+
+.reply-solid-1 {
+   position: absolute;
+    left: 37px;
+   top: 72px;
+    overflow: visible;
+   }
+
+/* -------------------------------ボタンデザイン----------------------------------------------------------- */
+.rogin {
+    width: 142px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 36px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .rogin:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .rogin:focus {
+    outline: none;
+  }
+  
+  .rogin.bn26 {
+    background-image: linear-gradient(
+      to right,
+      #2567e19a,
+      #445deb9f,
+      #0479fea4,
+      #3f59ed93
+    );
+    box-shadow: 0px 4px 4px 0px rgba(123, 121, 245, 0.33);
+  }
+
+  /* -------------------------テキストボックスデザイン----------------------------------------------------- */
+  .cp_iptxt {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.cp_iptxt input[type='text'] {
+	font: 15px/25px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	letter-spacing: 1px;
+	padding-left: 4em;
+    color: #496affa9;
+}
+.cp_iptxt input[type='text']:focus {
+	outline: none;
+}
+
+.ef {
+	padding: 4px 0;
+	border: 0;
+	border-bottom: 1px solid #ffffff;
+	background-color: transparent;
+}
+.ef ~ .focus_line {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	transition: 0.4s;
+	background-color: #ffffff;
+}
+.ef:focus ~ .focus_line,
+.cp_iptxt.ef ~ .focus_line {
+	width: 100%;
+	transition: 0.4s;
+}
+.ef ~ label {
+	position: absolute;
+	z-index: -1;
+	top: 4px;
+	left: 0;
+	width: 100%;
+	transition: 0.3s;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+    font-size: 15px;
+}
+.ef:focus ~ label, .cp_iptxt.ef ~ label {
+	font-size: 12px;
+	top: -16px;
+	transition: 0.3s;
+	color: #ffffff;
+}
+
+.error {
+   font-size: 12px;
+   color: rgba(255, 71, 71, 0.61);
+   text-align: center;
+   margin-top: 351px;
+}

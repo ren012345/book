@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.i-phone-14-10, .i-phone-14-10 * {
+    box-sizing: border-box;
+    }
+.i-phone-14-10 {
+   background: linear-gradient(191.44deg, rgba(94, 109, 242, 0.64) 0%,rgba(107, 211, 255, 0.73) 100%);
+    width: 390px;
+    height: 844px;
+    position: relative;
+    overflow: hidden;
+   }
+
+.frame-4 {
+   background: rgba(255, 255, 255, 0.19);
+    border-radius: 3px;
+    width: 281px;
+    height: 553px;
+    position: absolute;
+    left: 54px;
+   top: 146px;
+    box-shadow: 0px 4px 6px 4px rgba(255, 255, 255, 0.08);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+   }
+
+.welcome {
+   color: #ffffff;
+    text-align: left;
+    font: 400 28px 'Inter', sans-serif;
+    position: absolute;
+    left: 76px;
+   top: 122px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+   }
+
+.rectangle-14 {
+    width: 142px;
+    height: 36px;
+    position: absolute;
+    left: 70px;
+   top: 369px;
+   }
+
+.rectangle-142 {
+   background: rgba(96, 121, 253, 0.36);
+    border-radius: 30px;
+    width: 142px;
+    height: 36px;
+    position: absolute;
+    left: 70px;
+   top: 296px;
+    box-shadow: 0px 4px 4px 0px rgba(123, 121, 245, 0.33);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+   }
+
+/* --------------------------ボタンデザイン-------------------------------------------------------------------------------------------- */
+.singup {
+    width: 142px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 36px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .singup:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .singup:focus {
+    outline: none;
+  }
+  
+  .singup.bn26 {
+    background-image: linear-gradient(
+      to right,
+      #2567e19a,
+      #445deb9f,
+      #0479fea4,
+      #3f59ed93
+    );
+    box-shadow: 0px 4px 4px 0px rgba(123, 121, 245, 0.33);
+  }
+
+  .rogin {
+    width: 142px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 36px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .rogin:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .rogin:focus {
+    outline: none;
+  }
+  
+  .rogin.bn26 {
+    background-image: linear-gradient(
+      to right,
+      #2567e19a,
+      #445deb9f,
+      #0479fea4,
+      #3f59ed93
+    );
+    box-shadow: 0px 4px 4px 0px rgba(123, 121, 245, 0.33);
+  }
